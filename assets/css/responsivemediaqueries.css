@@ -1,0 +1,114 @@
+/* here start media queries for responsive */
+
+@media only screen and (max-width: 1533px) {
+    .polytext-title {
+        font-size: 4.5rem;
+        line-height: 70px;
+    }
+
+    .interior-text {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 1295px) {
+    .pdf-box {
+        width: min-content;
+        padding: 1rem 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 1258px) {
+    .number-title-digit {
+        font-size: 25px;
+    }
+
+    .number-text {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1226px) {
+    .call-us {
+        font-size: 14px;
+    }
+
+    .black-box-text {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 1061px) {
+    .polytext-title {
+        font-size: 3.5rem;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .mt-responsive {
+        margin-top: 2rem !important;
+    }
+
+    .pdf-box {
+        width: max-content;
+        margin: 0;
+    }
+
+    .call-us {
+        font-size: 20px;
+    }
+
+    .footer-section-content {
+        max-width: 98%;
+        margin: auto;
+    }
+
+    .foter-black-box {
+        min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .polytext-title {
+        font-size: 2.5rem;
+        line-height: 40px;
+    }
+
+    .interior-text {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .client-box {
+        padding: 1rem 0.5rem;
+    }
+
+    .container-cards .card:hover {
+        transform: scale(1.02);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .our-clients {
+        flex-wrap: wrap;
+    }
+
+    .client-box {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .pdf-box {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .section-herocantent {
+        left: 56%;
+        width: 76%;
+    }
+}
